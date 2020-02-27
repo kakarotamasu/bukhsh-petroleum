@@ -116,6 +116,7 @@ public class App extends Application {
         gridPane.add(submitButton, 0, 4, 2, 1);
         GridPane.setHalignment(submitButton, HPos.CENTER);
         GridPane.setMargin(submitButton, new Insets(20, 0,20,0));
+        System.out.println("git test");
 
         submitButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -151,8 +152,5 @@ public class App extends Application {
         alert.show();
     }
 
-    public static void main(String[] args) {
-        launch();
-    }
 
 }
